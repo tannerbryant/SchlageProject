@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">SchlageProject</string>
+
+    <string name="login_page_app_name">Schlage Lock Manager</string>
+    <string name="login_page_username_prompt">Username</string>
+    <string name="login_page_password_prompt">Password</string>
+    <string name="login_page_enter_button_label">Log In</string>
+
+    <string name="account_lock_list_page_banner">Your Locks</string>
+    <string name="account_lock_list_page_lock_name_placeholder">EXAMPLE LOCK</string>
+    <string name="account_lock_list_page_manage_button_label">Manage</string>
+
+    <string name="lock_information_page_banner">EXAMPLE LOCK</string>
+    <string name="login_page_name_text">Username</string>
+    <string name="loginPageLoginButtonText">Login</string>
+    <string name="loginPagePasswordHint">Password</string>
 </resources>
