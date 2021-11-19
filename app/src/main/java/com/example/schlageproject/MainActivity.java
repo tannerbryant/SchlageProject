@@ -41,9 +41,12 @@ public class MainActivity extends AppCompatActivity {
                 editTextPassword.getText().toString().equals(testPassword.toString())) {
             // Change view to account_lock_list_page
             Toast.makeText(getApplicationContext(), "Passed Login", Toast.LENGTH_SHORT).show();
+            setContentView(R.layout.account_lock_list_page);
         }
         else {
             Toast.makeText(getApplicationContext(), "Failed Login", Toast.LENGTH_SHORT).show();
+            editTextUsername.setText("");
+            editTextPassword.setText("");
         }
     }
 }

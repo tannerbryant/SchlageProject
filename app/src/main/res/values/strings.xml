@@ -14,4 +14,6 @@
     <string name="login_page_name_text">Username</string>
     <string name="loginPageLoginButtonText">Login</string>
     <string name="loginPagePasswordHint">Password</string>
+    <string name="account_lock_list_page_banner_text_view">Your Locks</string>
+    <string name="lock">Lock</string>
 </resources>
